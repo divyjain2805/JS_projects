@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <div class="gradient-box"></div>
+        <div class="row options">
+            <div class="column direction">
+                <p>Direction</p>
+                <div class="select-box">
+                    <select>
+                        <option value="to top">Top</option>
+                        <option value="to right Top">Right Top</option>
+                        <option value="to right">Right</option>
+                        <option value="to right bottom">Right bottom</option>
+                        <option value="to bottom" selected>Bottom</option>
+                        <option value="to left bottom">Left bottom</option>
+                        <option value="to left">Left</option>
+                        <option value="to left top">Left top</option>
+                    </select>
+                </div>
+            </div>
+            <div class="column colors">
+                <p>Colors</p>
+                <div class="inputs">
+                    <input type="color" value="#5ffffa">
+                    <input type="color" value="#7d7bfe">
+                </div>
+            </div>
+        </div>
+        <textarea class="textcolor" disabled>background: linear-gradient(to right, #ff7e5f, #feb47b);</textarea>
+        <div class="textcolor buttons">
+            <button class="refresh">Refresh</button>
+            <button class="copy">Copy</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
